@@ -1,14 +1,3 @@
-# react-native-amap3d [![][version-badge]][npm] [![](https://github.com/qiuxiang/react-native-amap3d/actions/workflows/build.yml/badge.svg)](https://github.com/qiuxiang/react-native-amap3d/actions/workflows/build.yml)
-
-**注意：该项目目前只维护，不加新功能。**
-
-react-native 高德地图组件，使用最新 3D SDK，支持 Android + iOS，受 [react-native-maps](https://github.com/airbnb/react-native-maps) 启发，提供功能丰富且易用的接口。
-
-相关项目推荐：
-
-- [react-native-baidumap-sdk（百度地图 SDK）](https://github.com/qiuxiang/react-native-baidumap-sdk)
-- [react-native-amap-geolocation（高德地图定位模块）](https://github.com/qiuxiang/react-native-amap-geolocation)
-
 ## 功能
 
 - 地图模式切换（常规、卫星、导航、夜间）
@@ -25,10 +14,6 @@ react-native 高德地图组件，使用最新 3D SDK，支持 Android + iOS，�
 - 海量点（MultiPoint）
 - 点聚合（Cluster）
 
-## 接口文档
-
-https://qiuxiang.github.io/react-native-amap3d/api/
-
 ## 安装
 
 ```bash
@@ -39,8 +24,8 @@ npm i react-native-amap3d
 
 首先你需要获取高德地图 API Key：
 
-- [Aandroid](http://lbs.amap.com/api/android-sdk/guide/create-project/get-key)
-- [iOS](https://lbs.amap.com/api/ios-sdk/guide/create-project/get-key)
+- [Aandroid]
+- [iOS]
 
 然后你需要在显示地图前调用接口设置 API key：
 
@@ -171,10 +156,6 @@ const markers = Array(1000)
 <img src=https://user-images.githubusercontent.com/1709072/140710764-40f767cd-74fd-47ca-8310-897bbf58fbbd.png height=500> <img src=https://user-images.githubusercontent.com/1709072/140849888-6b6609c1-2e55-41c2-bdc3-f9d3fcc7a112.PNG height=500>
 
 <img src=https://user-images.githubusercontent.com/1709072/140710758-63e81ade-2635-4412-a5fa-b6948605fe75.png height=500> <img src=https://user-images.githubusercontent.com/1709072/140849880-9eb7609d-55a7-43be-8b6a-bac725fb0a82.PNG height=500>
-
-### 更多示例
-
-参考 [example](https://github.com/qiuxiang/react-native-amap3d/tree/master/example-app)。
 
 ## 常见问题
 
